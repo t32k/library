@@ -230,7 +230,7 @@ section.content {
         color: #b25735;
         text-decoration: none; }
     section.content .sidebar ol .sub {
-      padding: 5px 0 0 15px; }
+      padding-left: 15px; }
       section.content .sidebar ol .sub li {
         font-size: 1em; }
     section.content .sidebar ol .active {
