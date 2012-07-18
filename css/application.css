@@ -103,22 +103,6 @@ em {
 strong {
   font-weight: 700; }
 
-code, pre {
-  background: #404243;
-  border-radius: 3px;
-  color: #f9f0ed;
-  font-family: Consolas, Menlo, Courier, monospace;
-  font-size: 1.2em;
-  margin: 10px 0;
-  padding: 10px;
-  width: 75%;
-  word-wrap: break-word; }
-
-code {
-  background: #b25735;
-  margin: 0;
-  padding: 4px; }
-
 .inner {
   margin: 0 auto;
   padding: 0 40px;
@@ -134,6 +118,26 @@ code {
   .btn:hover, .btn-default:hover {
     background: #bfc1c3;
     text-decoration: none; }
+
+.gist .gist-file {
+  border-color: #dadbdb !important; }
+  .gist .gist-file .gist-data {
+    background: #FFF !important;
+    border: 0 !important; }
+  .gist .gist-file .gist-syntax pre {
+    font-size: 1.3em; }
+    .gist .gist-file .gist-syntax pre .c1 {
+      color: #8B8E91; }
+    .gist .gist-file .gist-syntax pre .k, .gist .gist-file .gist-syntax pre .n, .gist .gist-file .gist-syntax pre .o, .gist .gist-file .gist-syntax pre .nc, .gist .gist-file .gist-syntax pre .p, .gist .gist-file .gist-syntax pre .kt {
+      color: #272829; }
+    .gist .gist-file .gist-syntax pre .nf, .gist .gist-file .gist-syntax pre .sx, .gist .gist-file .gist-syntax pre .si, .gist .gist-file .gist-syntax pre .nv, .gist .gist-file .gist-syntax pre .h, .gist .gist-file .gist-syntax pre .s1, .gist .gist-file .gist-syntax pre .s2, .gist .gist-file .gist-syntax pre .s {
+      color: #b25735; }
+    .gist .gist-file .gist-syntax pre .na, .gist .gist-file .gist-syntax pre .mi, .gist .gist-file .gist-syntax pre .mf, .gist .gist-file .gist-syntax pre .no, .gist .gist-file .gist-syntax pre .err, .gist .gist-file .gist-syntax pre .nt, .gist .gist-file .gist-syntax pre .ss, .gist .gist-file .gist-syntax pre .nb {
+      color: #546d39; }
+    .gist .gist-file .gist-syntax pre .err {
+      background: none; }
+  .gist .gist-file .gist-meta {
+    display: none; }
 
 header {
   background: #272829;

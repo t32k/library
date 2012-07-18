@@ -27,6 +27,29 @@
   @extend .btn;
 }
 
+// ----- Gists ----- //
+
+.gist {
+  .gist-file {
+    border-color: lighten($color-base, 70%) !important;
+    .gist-data {
+      background: #FFF !important;
+      border: 0 !important;
+    }
+    .gist-syntax pre {
+      font-size: 1.3em;
+      .c1 { color: #8B8E91; }
+      .k, .n, .o, .nc, .p, .kt { color: $color-base; }
+      .nf, .sx, .si, .nv, .h, .s1, .s2, .s { color: $color-highlight; }
+      .na, .mi, .mf, .no, .err, .nt, .ss, .nb { color: darken(#6E8F4A, 10%); }
+      .err { background: none; }
+    }
+    .gist-meta {
+      display: none;
+    }
+  }
+}
+
 //-----------------------------------------------------------------------
 //  Application
 //-----------------------------------------------------------------------
