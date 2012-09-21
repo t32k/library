@@ -55,6 +55,8 @@
           %h2 JavaScript Components
         .content-section#hero-slider
           %h2 Hero Slider
+        .content-section#hash-url
+          %h2 Hash URLs 
       %aside.sidebar
         %ol
           %li
@@ -89,7 +91,8 @@
             %ol.sub
               %li
                 %a{ :href => '#hero-slider', 'data-hash' => '#hero-slider' } Hero Slider
-
+              %li
+                %a{ :href => '#hash-url', 'data-hash' => '#hash-url' } Hash URLs
   :javascript
     var _gauges = _gauges || [];
     (function() {

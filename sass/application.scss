@@ -32,12 +32,13 @@
 .gist {
   .gist-file {
     border-color: lighten($color-base, 70%) !important;
+    border-radius: 3px;
     .gist-data {
       background: #FFF !important;
       border: 0 !important;
     }
     .gist-syntax pre {
-      font-size: 1.3em;
+      font-size: 1.4em;
       .c1 { color: #8B8E91; }
       .k, .n, .o, .nc, .p, .kt { color: $color-base; }
       .nf, .sx, .si, .nv, .h, .s1, .s2, .s { color: $color-highlight; }
@@ -48,6 +49,12 @@
       display: none;
     }
   }
+}
+
+// ----- Code Block ----- //
+
+.code-block {
+  margin: 20px 0;
 }
 
 //-----------------------------------------------------------------------

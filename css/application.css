@@ -120,12 +120,13 @@ strong {
     text-decoration: none; }
 
 .gist .gist-file {
-  border-color: #dadbdb !important; }
+  border-color: #dadbdb !important;
+  border-radius: 3px; }
   .gist .gist-file .gist-data {
     background: #FFF !important;
     border: 0 !important; }
   .gist .gist-file .gist-syntax pre {
-    font-size: 1.3em; }
+    font-size: 1.4em; }
     .gist .gist-file .gist-syntax pre .c1 {
       color: #8B8E91; }
     .gist .gist-file .gist-syntax pre .k, .gist .gist-file .gist-syntax pre .n, .gist .gist-file .gist-syntax pre .o, .gist .gist-file .gist-syntax pre .nc, .gist .gist-file .gist-syntax pre .p, .gist .gist-file .gist-syntax pre .kt {
@@ -138,6 +139,9 @@ strong {
       background: none; }
   .gist .gist-file .gist-meta {
     display: none; }
+
+.code-block {
+  margin: 20px 0; }
 
 header {
   background: #272829;
