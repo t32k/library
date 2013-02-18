@@ -28,23 +28,45 @@
     <div class='cell grid'>
       <aside class='grid-box'>
         <ul class='sectionList'>
+          <li><a href="#setup" data-hash="#setup">Setup</a></li>
           <li><a href="#buttons" data-hash="#buttons">Buttons</a></li>
-          <li><a href="#containers" data-hash="#containers">Containers</a></li>
-          <li><a href="#content" data-hash="#content">Content</a></li>
-          <li><a href="#dropdowns" data-hash="#dropdowns">Dropdowns</a></li>
+          <li class='is-developing'>Containers</li>
+          <li class='is-developing'>Content</li>
+          <li class='is-developing'>Dropdowns</li>
           <li><a href="#forms" data-hash="#forms">Forms</a></li>
-          <li><a href="#grids" data-hash="#grids">Grids</a></li>
+          <li class='is-developing'>Grids</li>
           <li><a href="#hash-urls" data-hash="#hash-urls">Hash URLs</a></li>
-          <li><a href="#icons" data-hash="#icons">Icons</a></li>
-          <li><a href="#lists" data-hash="#lists">Lists</a></li>
-          <li><a href="#modals" data-hash="#modals">Modals</a></li>
-          <li><a href="#popovers" data-hash="#popovers">Popovers</a></li>
+          <li class='is-developing'>Icons</li>
+          <li class='is-developing'>Lists</li>
+          <li class='is-developing'>Modals</li>
+          <li class='is-developing'>Popovers</li>
           <li><a href="#tables" data-hash="#tables">Tables</a></li>
           <li><a href="#tabs" data-hash="#tabs">Tabs</a></li>
-          <li><a href="#tooltips" data-hash="#tooltips">Tooltips</a></li>
+          <li class='is-developing'>Tooltips</li>
         </ul>
       </aside>
       <div class='grid-box'>
+        <!-- Setup -->
+        <div class='contentSection' id='setup'>
+          <h3>Setup</h3>
+          <p>Welcome to the <strong>currently in-development</strong> MVCSS Library. This codebase is a modular framework for markup patterns (<code>modules/</code>) and JavaScript components (<code>components/</code>).</p>
+          <div class='card--a'>
+            <h4>File Structure</h4>
+            <p><code>assets/</code> contains all of the stylesheets and JavaScript files. You will also include your <code>fonts/</code> and <code>images/</code> here (when needed). <code>assets/</code> is made up of <code>css/</code> (for compiled application.css), <code>stylesheets/</code> (for Sass files), and <code>javascripts/</code>, which contains base JavaScript, as well as <code>components/</code>.</p>
+          </div>
+          <div class='card--a'>
+            <h4>Configuration</h4>
+            <p>The <code>assets/stylesheets/_config.sass</code> file is where all of the configuration options are. You can use this file to tweak base variables, as well as all variables set on the <code>modules/</code>.</p>
+          </div>
+          <div class='card--a'>
+            <h4>Stylesheets</h4>
+            <p><code>core/</code> contains the core of <a href="http://mvcss.github.com/MVCSS/">MVCSS</a>, with a few additions. <code>modules/</code> is where all of the components that can be plugged into MVCSS live. As always, <code>application.sass</code> is your main stylesheet.</p>
+          </div>
+          <div class='card--a'>
+            <h4>JavaScripts</h4>
+            <p><code>javascripts/</code> contains an <code>application.coffee</code> (and compiled <code>application.js</code>) file for base functionality, and then <code>components/</code> contains more specific JavaScript components. You can include the ones that you need, just like the Sass <code>modules/</code>.</p>
+          </div>
+        </div>
         <!-- Buttons -->
         <div class='contentSection' id='buttons'>
           <h3>Buttons</h3>

@@ -36,6 +36,44 @@
 @import "modules/tabs"
 @import "modules/tooltips"
 
+// ----- Module ----- //
+
+// Examples:
+// ------------------
+// .module
+// .moduleName
+// ------------------
+
+// -- Sub-module -- //
+
+// Examples:
+// ------------------
+// .module-sub
+// .moduleName-sub
+// .moduleName-subName
+// ------------------
+
+// Modifiers //
+
+// Examples:
+// ------------------
+// .module--modifier
+// .moduleName--modifier
+// .module-sub--modifier
+// .moduleName-sub--modifier
+// .moduleName-subName--modifer
+// ------------------
+
+// State Modifiers
+
+// Examples:
+// ------------------
+// .is-module-action
+// .is-moduleName-action
+// .is-module-sub-action
+// .is-moduleName-subName-action
+// ------------------
+
 //-------------------------------------
 //  Docs
 //-------------------------------------
@@ -61,6 +99,13 @@
 
 .content .grid
   +grid(20%, 80%)
+
+.content code
+  background: lighten($color-base, 70%)
+  border-radius: $border-radius
+  font-family: $font-monospace
+  font-size: 0.8em
+  padding: 2px 7px
 
 // ----- Example ----- //
 
@@ -103,6 +148,8 @@
 .sectionList li
   font-size: 1.6em
   margin-top: 15px
+  &.is-developing
+    color: lighten($color-base, 50%)
   a
     color: $color-base
     display: block

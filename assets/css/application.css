@@ -454,7 +454,7 @@ input:-ms-input-placeholder {
   .tabs-content.is-visible {
     display: block; }
 
-/* line 45, ../stylesheets/application.sass */
+/* line 83, ../stylesheets/application.sass */
 .siteHeader {
   background: #272829;
   box-shadow: none; }
@@ -472,15 +472,15 @@ input:-ms-input-placeholder {
     .siteHeader .grid .grid-box:last-child {
       float: right;
       width: 35%; }
-  /* line 50, ../stylesheets/application.sass */
+  /* line 88, ../stylesheets/application.sass */
   .siteHeader h1, .siteHeader h2 {
     color: white; }
-  /* line 52, ../stylesheets/application.sass */
+  /* line 90, ../stylesheets/application.sass */
   .siteHeader h2 {
     font-size: 2.4em;
     color: #8b8e91;
     font-weight: normal; }
-  /* line 56, ../stylesheets/application.sass */
+  /* line 94, ../stylesheets/application.sass */
   .siteHeader .btn--a {
     font-size: 1.8em;
     margin-top: 25px; }
@@ -500,11 +500,19 @@ input:-ms-input-placeholder {
     float: right;
     width: 80%; }
 
-/* line 67, ../stylesheets/application.sass */
+/* line 103, ../stylesheets/application.sass */
+.content code {
+  background: #dadbdb;
+  border-radius: 3px;
+  font-family: Monaco, monospace;
+  font-size: 0.8em;
+  padding: 2px 7px; }
+
+/* line 112, ../stylesheets/application.sass */
 .example h4 {
   margin-bottom: 10px; }
 
-/* line 72, ../stylesheets/application.sass */
+/* line 117, ../stylesheets/application.sass */
 .example-label {
   background: #e7e7e8;
   font-family: Monaco, monospace;
@@ -514,11 +522,11 @@ input:-ms-input-placeholder {
   right: 0;
   top: -10px; }
 
-/* line 83, ../stylesheets/application.sass */
+/* line 128, ../stylesheets/application.sass */
 .example-label--b {
   top: 0; }
 
-/* line 88, ../stylesheets/application.sass */
+/* line 133, ../stylesheets/application.sass */
 .example-markup {
   background: #e7e7e8;
   font-family: Monaco, monospace;
@@ -527,19 +535,22 @@ input:-ms-input-placeholder {
   overflow-x: scroll;
   padding: 10px 24px; }
 
-/* line 98, ../stylesheets/application.sass */
+/* line 143, ../stylesheets/application.sass */
 .example-markup--b {
   background: white; }
 
-/* line 103, ../stylesheets/application.sass */
+/* line 148, ../stylesheets/application.sass */
 .sectionList li {
   font-size: 1.6em;
   margin-top: 15px; }
-  /* line 106, ../stylesheets/application.sass */
+  /* line 151, ../stylesheets/application.sass */
+  .sectionList li.is-developing {
+    color: #a5a8aa; }
+  /* line 153, ../stylesheets/application.sass */
   .sectionList li a {
     color: #272829;
     display: block;
     margin-bottom: 10px; }
-    /* line 110, ../stylesheets/application.sass */
+    /* line 157, ../stylesheets/application.sass */
     .sectionList li a.active {
       color: #bd4c28; }

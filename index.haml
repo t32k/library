@@ -24,21 +24,38 @@
     .cell.grid
       %aside.grid-box
         %ul.sectionList
+          %li <a href="#setup" data-hash="#setup">Setup</a>
           %li <a href="#buttons" data-hash="#buttons">Buttons</a>
-          %li <a href="#containers" data-hash="#containers">Containers</a>
-          %li <a href="#content" data-hash="#content">Content</a>
-          %li <a href="#dropdowns" data-hash="#dropdowns">Dropdowns</a>
+          %li.is-developing Containers
+          %li.is-developing Content
+          %li.is-developing Dropdowns
           %li <a href="#forms" data-hash="#forms">Forms</a>
-          %li <a href="#grids" data-hash="#grids">Grids</a>
+          %li.is-developing Grids
           %li <a href="#hash-urls" data-hash="#hash-urls">Hash URLs</a>
-          %li <a href="#icons" data-hash="#icons">Icons</a>
-          %li <a href="#lists" data-hash="#lists">Lists</a>
-          %li <a href="#modals" data-hash="#modals">Modals</a>
-          %li <a href="#popovers" data-hash="#popovers">Popovers</a>
+          %li.is-developing Icons
+          %li.is-developing Lists
+          %li.is-developing Modals
+          %li.is-developing Popovers
           %li <a href="#tables" data-hash="#tables">Tables</a>
           %li <a href="#tabs" data-hash="#tabs">Tabs</a>
-          %li <a href="#tooltips" data-hash="#tooltips">Tooltips</a>
+          %li.is-developing Tooltips
       .grid-box
+        / Setup
+        .contentSection#setup
+          %h3 Setup
+          %p Welcome to the <strong>currently in-development</strong> MVCSS Library. This codebase is a modular framework for markup patterns (<code>modules/</code>) and JavaScript components (<code>components/</code>).
+          .card--a
+            %h4 File Structure
+            %p <code>assets/</code> contains all of the stylesheets and JavaScript files. You will also include your <code>fonts/</code> and <code>images/</code> here (when needed). <code>assets/</code> is made up of <code>css/</code> (for compiled application.css), <code>stylesheets/</code> (for Sass files), and <code>javascripts/</code>, which contains base JavaScript, as well as <code>components/</code>.
+          .card--a
+            %h4 Configuration
+            %p The <code>assets/stylesheets/_config.sass</code> file is where all of the configuration options are. You can use this file to tweak base variables, as well as all variables set on the <code>modules/</code>.
+          .card--a
+            %h4 Stylesheets
+            %p <code>core/</code> contains the core of <a href="http://mvcss.github.com/MVCSS/">MVCSS</a>, with a few additions. <code>modules/</code> is where all of the components that can be plugged into MVCSS live. As always, <code>application.sass</code> is your main stylesheet.
+          .card--a
+            %h4 JavaScripts
+            %p <code>javascripts/</code> contains an <code>application.coffee</code> (and compiled <code>application.js</code>) file for base functionality, and then <code>components/</code> contains more specific JavaScript components. You can include the ones that you need, just like the Sass <code>modules/</code>.
         / Buttons
         .contentSection#buttons
           %h3 Buttons
