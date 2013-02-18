@@ -1,0 +1,99 @@
+//-------------------------------------
+//  Forms
+//-------------------------------------
+
+// Form Variables
+
+$form-font-size: 1.6em !default
+$form-input-placeholder: lighten($color-base, 40%) !default
+$form-input-bg: #FFF !default
+$form-input-border: 1px solid $color-border !default
+$form-input-focus: 0 0 3px rbga($color-border, 0.8) !default
+
+// ----- Form ----- //
+
+.form
+  margin: 20px 0
+
+// Form Modifiers //
+
+.form--inline
+  .form-field
+    @extend %group
+  .form-input
+    float: left
+    margin-right: 2%
+    width: 70%
+  .form-submit
+    float: left
+    width: 28%
+
+// ----- Form Placeholder Text ----- //
+
+input::-webkit-input-placeholder
+  color: $form-input-placeholder
+input:-moz-placeholder
+  color: $form-input-placeholder
+input::-moz-placeholder
+  color: $form-input-placeholder
+input:-ms-input-placeholder
+  color: $form-input-placeholder
+
+// ----- Form Header ----- //
+
+.form-header
+  margin-bottom: 10px
+
+// ----- Form Field ----- //
+
+.form-field
+  margin-bottom: 20px
+
+// Form Field Modifiers //
+
+.form-field--submit
+  margin-top: 20px
+
+// ----- Form Label ----- //
+
+.form-label
+  display: block
+  font-size: 1.6em
+  font-weight: bold
+  margin-bottom: 5px
+  em
+    color: $color-error
+
+// Form Label Modifiers //
+
+.form-label--radio,
+.form-label--check
+  font-size: 1.4em
+  font-weight: normal
+
+// ----- Form Note ----- //
+
+.form-note
+  color: lighten($color-base, 40%)
+  font-size: 1.4em
+  margin-top: 5px
+
+// ----- Form Input ----- //
+
+.form-input
+  +box-sizing(border-box)
+  background: $form-input-bg
+  border: $form-input-border
+  border-radius: $border-radius
+  font-family: $font-base
+  font-size: 1.4em
+  padding: 10px 8px
+  width: 100%
+  &:focus
+    box-shadow: $form-input-focus
+    outline: none
+
+// ----- Form Select ----- //
+
+.form-select
+  width: 30%
