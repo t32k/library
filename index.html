@@ -268,15 +268,19 @@
               <h4>Inline Form</h4>
               <p class='example-label'>.form.form--inline</p>
               <div class='example-output'>
-                <form action='' class='form form--inline' methd='post'>
-                  <fieldset class='form-field'>
-                    <input class='form-input' placeholder='Enter your search team' type='text'>
-                    <input class='btn--a form-submit' type='submit' value='Search'>
+                <form action='' class='form' methd='post'>
+                  <fieldset class='form-field grid'>
+                    <div class='grid-box grid-box--2of3'>
+                      <input class='form-input' placeholder='Enter your search team' type='text'>
+                    </div>
+                    <div class='grid-box grid-box--1of3'>
+                      <input class='btn--a btn--block form-submit' type='submit' value='Search'>
+                    </div>
                   </fieldset>
                 </form>
               </div>
               <div class='example-markup'>
-                <pre>%form.form.form--inline(methd="post" action="")&#x000A;  %fieldset.form-field&#x000A;    %input.form-input(type="text" placeholder="Enter your search team")&#x000A;    %input.btn--a.form-submit(type="submit" value="Search")</pre>
+                <pre>%form.form(methd="post" action="")&#x000A;  %fieldset.form-field.grid&#x000A;    .grid-box.grid-box--2of3&#x000A;      %input.form-input(type="text" placeholder="Enter your search team")&#x000A;    .grid-box.grid-box--1of3&#x000A;      %input.btn--a.btn--block.form-submit(type="submit" value="Search")</pre>
               </div>
             </div>
           </div>

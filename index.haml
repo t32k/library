@@ -296,17 +296,21 @@
               %h4 Inline Form
               %p.example-label .form.form--inline
               .example-output
-                %form.form.form--inline(methd="post" action="")
-                  %fieldset.form-field
-                    %input.form-input(type="text" placeholder="Enter your search team")
-                    %input.btn--a.form-submit(type="submit" value="Search")
+                %form.form(methd="post" action="")
+                  %fieldset.form-field.grid
+                    .grid-box.grid-box--2of3
+                      %input.form-input(type="text" placeholder="Enter your search team")
+                    .grid-box.grid-box--1of3
+                      %input.btn--a.btn--block.form-submit(type="submit" value="Search")
               .example-markup
                 %pre
                   :preserve
-                    %form.form.form--inline(methd="post" action="")
-                      %fieldset.form-field
-                        %input.form-input(type="text" placeholder="Enter your search team")
-                        %input.btn--a.form-submit(type="submit" value="Search")
+                    %form.form(methd="post" action="")
+                      %fieldset.form-field.grid
+                        .grid-box.grid-box--2of3
+                          %input.form-input(type="text" placeholder="Enter your search team")
+                        .grid-box.grid-box--1of3
+                          %input.btn--a.btn--block.form-submit(type="submit" value="Search")
           / Grids
           .contentSection#grids
             %h3 Grids
