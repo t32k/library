@@ -31,6 +31,7 @@
       <div class='grid'>
         <aside class='grid-box grid-box--1of5'>
           <ul class='sectionList'>
+            <li><a href="#about" data-hash="#about">About</a></li>
             <li><a href="#setup" data-hash="#setup">Setup</a></li>
             <li class='is-developing'>Settings</li>
             <li><a href="#buttons" data-hash="#buttons">Buttons</a></li>
@@ -50,10 +51,18 @@
           </ul>
         </aside>
         <div class='grid-box grid-box--4of5'>
+          <!-- About -->
+          <div class='contentSection' id='about'>
+            <h3>About</h3>
+            <p>Welcome to the <strong>currently in-development</strong> MVCSS Library. This codebase is a modular framework for markup patterns (<code>modules/</code>) and JavaScript components (<code>components/</code>) that are built on top of <a href="http://mvcss.github.com/MVCSS/">MVCSS</a>.</p>
+            <div class='card--a'>
+              <h4>Prerequisites</h4>
+              <p>Before setting up the framework, we suggest you ready through <a href="http://mvcss.github.com/MVCSS/">MVCSS</a>, as well as the <a href="http://mvcss.github.com/styleguide/">styleguide</a> for how we write our markup and styles.</p>
+            </div>
+          </div>
           <!-- Setup -->
           <div class='contentSection' id='setup'>
             <h3>Setup</h3>
-            <p>Welcome to the <strong>currently in-development</strong> MVCSS Library. This codebase is a modular framework for markup patterns (<code>modules/</code>) and JavaScript components (<code>components/</code>) that are built on top of <a href="http://mvcss.github.com/MVCSS/">MVCSS</a>.</p>
             <div class='card--a'>
               <h4>File Structure</h4>
               <p><code>assets/</code> is made up of <code>stylesheets/</code> and <code>javascripts/</code> (You will also include your <code>fonts/</code> and <code>images/</code> here).</p>
@@ -484,7 +493,7 @@
             </div>
             <div class='card--a example'>
               <h4>Silent Classes</h4>
-              <p>If you don't want to explicitly call the any of the <code>.grid</code> classes in your HTML, you can set the <code>$grid-silent</code> variable to <code>true</code> to use Sass placeholder selectors, like so:</p>
+              <p>If you don't want to explicitly call any of the <code>.grid</code> classes in your HTML, you can set the <code>$grid-silent</code> variable to <code>true</code> to use Sass placeholder selectors, like so:</p>
               <div class='example-markup'>
                 <pre>.main&#x000A;  @extend %grid&#x000A;  .content&#x000A;    @extend %grid-box&#x000A;    @extend %grid-box--2of3&#x000A;  .sidebar&#x000A;    @extend %grid-box&#x000A;    @extend %grid-box--1of3</pre>
               </div>

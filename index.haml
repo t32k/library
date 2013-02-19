@@ -26,6 +26,7 @@
       .grid
         %aside.grid-box.grid-box--1of5
           %ul.sectionList
+            %li <a href="#about" data-hash="#about">About</a>
             %li <a href="#setup" data-hash="#setup">Setup</a>
             %li.is-developing Settings
             %li <a href="#buttons" data-hash="#buttons">Buttons</a>
@@ -43,10 +44,16 @@
             %li <a href="#tabs" data-hash="#tabs">Tabs</a>
             %li.is-developing Tooltips
         .grid-box.grid-box--4of5
+          / About
+          .contentSection#about
+            %h3 About
+            %p Welcome to the <strong>currently in-development</strong> MVCSS Library. This codebase is a modular framework for markup patterns (<code>modules/</code>) and JavaScript components (<code>components/</code>) that are built on top of <a href="http://mvcss.github.com/MVCSS/">MVCSS</a>.  
+            .card--a
+              %h4 Prerequisites
+              %p Before setting up the framework, we suggest you ready through <a href="http://mvcss.github.com/MVCSS/">MVCSS</a>, as well as the <a href="http://mvcss.github.com/styleguide/">styleguide</a> for how we write our markup and styles.
           / Setup
           .contentSection#setup
             %h3 Setup
-            %p Welcome to the <strong>currently in-development</strong> MVCSS Library. This codebase is a modular framework for markup patterns (<code>modules/</code>) and JavaScript components (<code>components/</code>) that are built on top of <a href="http://mvcss.github.com/MVCSS/">MVCSS</a>.
             .card--a
               %h4 File Structure
               %p <code>assets/</code> is made up of <code>stylesheets/</code> and <code>javascripts/</code> (You will also include your <code>fonts/</code> and <code>images/</code> here).
