@@ -27,6 +27,7 @@
         %aside.grid-box.grid-box--1of5
           %ul.sectionList
             %li <a href="#setup" data-hash="#setup">Setup</a>
+            %li.is-developing Settings
             %li <a href="#buttons" data-hash="#buttons">Buttons</a>
             %li <a href="#containers" data-hash="#containers">Containers</a>
             %li.is-developing Content
@@ -58,6 +59,15 @@
             .card--a
               %h4 JavaScripts
               %p <code>javascripts/</code> contains an <code>application.coffee</code> (and compiled <code>application.js</code>) file for base functionality, and then <code>components/</code> contains more specific JavaScript components. You can include the ones that you need, just like the Sass <code>modules/</code>.
+          / Setup
+          .contentSection#settings
+            %h3 Settings
+            .card--a.example
+              %h4 Mixins
+            .card--a.example
+              %h4 Functions
+            .card--a.example
+              %h4 Extends
           / Buttons
           .contentSection#buttons
             %h3 Buttons
