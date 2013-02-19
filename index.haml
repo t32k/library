@@ -144,8 +144,8 @@
             %p Requires <code>modules/_containers.sass</code>
             .card--a.example
               %h4 Rows
-              %p Rows are full-width blocks of content. Often times, we'll create modifiers (<code>.row--a</code>) that have different background colors.
               %p.example-label .row
+              %p Rows are full-width blocks of content. Often times, we'll create modifiers (<code>.row--a</code>) that have different background colors.
               .example-markup
                 %pre
                   :preserve
@@ -153,8 +153,8 @@
                       %h1 This is full-width content.
             .card--a.example
               %h4 Cells
-              %p Cells are the inner wrappers for you site content. The modifiers (<code>.cell--a</code>) will setup alternate widths for your site content.
               %p.example-label .cell
+              %p Cells are the inner wrappers for you site content. The modifiers (<code>.cell--a</code>) will setup alternate widths for your site content.
               .example-markup
                 %pre
                   :preserve
@@ -162,8 +162,8 @@
                       %h1 This is content within a inner wrapper.
             .card--a.example
               %h4 Cards
-              %p Cards are stylistic wrappers for content elements.
               %p.example-label .card
+              %p Cards are stylistic wrappers for content elements.
               .example-markup
                 %pre
                   :preserve
@@ -171,8 +171,8 @@
                       %h1 This is a stylistic card.
             .card--a.example
               %h4 Buckets
-              %p Buckets are content elements with a media element floated to the left, and content floated next to that media element. There are modifiers for the buckets based on the <code>$bucket-sizes</code> variable, which allows you to pass in the common media element sizes. For instance, <code>.bucket--01</code> accounts for a 75px-wide media element.
               %p.example-label .bucket--01
+              %p Buckets are content elements with a media element floated to the left, and content floated next to that media element. There are modifiers for the buckets based on the <code>$bucket-sizes</code> variable, which allows you to pass in the common media element sizes. For instance, <code>.bucket--01</code> accounts for a 75px-wide media element.
               .example-markup
                 %pre
                   :preserve
@@ -314,6 +314,156 @@
           / Grids
           .contentSection#grids
             %h3 Grids
+            .card--a.example
+              %h4 Basic Grid
+              %p.example-label .grid
+              .example-output.example-output--grids
+                .grid
+                  .grid-box.grid-box--1of1
+                    %p 1/1
+                .grid
+                  .grid-box.grid-box--1of2
+                    %p 1/2
+                  .grid-box.grid-box--1of2
+                    %p 1/2
+                .grid
+                  .grid-box.grid-box--1of3
+                    %p 1/3
+                  .grid-box.grid-box--1of3
+                    %p 1/3
+                  .grid-box.grid-box--1of3
+                    %p 1/3
+                .grid
+                  .grid-box.grid-box--1of4
+                    %p 1/4
+                  .grid-box.grid-box--1of4
+                    %p 1/4
+                  .grid-box.grid-box--1of4
+                    %p 1/4
+                  .grid-box.grid-box--1of4
+                    %p 1/4
+                .grid
+                  .grid-box.grid-box--1of5
+                    %p 1/5
+                  .grid-box.grid-box--1of5
+                    %p 1/5
+                  .grid-box.grid-box--1of5
+                    %p 1/5
+                  .grid-box.grid-box--1of5
+                    %p 1/5
+                  .grid-box.grid-box--1of5
+                    %p 1/5
+                .grid
+                  .grid-box.grid-box--1of6
+                    %p 1/6
+                  .grid-box.grid-box--1of6
+                    %p 1/6
+                  .grid-box.grid-box--1of6
+                    %p 1/6
+                  .grid-box.grid-box--1of6
+                    %p 1/6
+                  .grid-box.grid-box--1of6
+                    %p 1/6
+                  .grid-box.grid-box--1of6
+                    %p 1/6
+                .grid
+                  .grid-box.grid-box--1of8
+                    %p 1/8
+                  .grid-box.grid-box--1of8
+                    %p 1/8
+                  .grid-box.grid-box--1of8
+                    %p 1/8
+                  .grid-box.grid-box--1of8
+                    %p 1/8
+                  .grid-box.grid-box--1of8
+                    %p 1/8
+                  .grid-box.grid-box--1of8
+                    %p 1/8
+                  .grid-box.grid-box--1of8
+                    %p 1/8
+                  .grid-box.grid-box--1of8
+                    %p 1/8
+                .grid
+                  .grid-box.grid-box--1of10
+                    %p 1/10
+                  .grid-box.grid-box--1of10
+                    %p 1/10
+                  .grid-box.grid-box--1of10
+                    %p 1/10
+                  .grid-box.grid-box--1of10
+                    %p 1/10
+                  .grid-box.grid-box--1of10
+                    %p 1/10
+                  .grid-box.grid-box--1of10
+                    %p 1/10
+                  .grid-box.grid-box--1of10
+                    %p 1/10
+                  .grid-box.grid-box--1of10
+                    %p 1/10
+                  .grid-box.grid-box--1of10
+                    %p 1/10
+                  .grid-box.grid-box--1of10
+                    %p 1/10
+                .grid
+                  .grid-box.grid-box--1of12
+                    %p 1/12
+                  .grid-box.grid-box--1of12
+                    %p 1/12
+                  .grid-box.grid-box--1of12
+                    %p 1/12
+                  .grid-box.grid-box--1of12
+                    %p 1/12
+                  .grid-box.grid-box--1of12
+                    %p 1/12
+                  .grid-box.grid-box--1of12
+                    %p 1/12
+                  .grid-box.grid-box--1of12
+                    %p 1/12
+                  .grid-box.grid-box--1of12
+                    %p 1/12
+                  .grid-box.grid-box--1of12
+                    %p 1/12
+                  .grid-box.grid-box--1of12
+                    %p 1/12
+                  .grid-box.grid-box--1of12
+                    %p 1/12
+                  .grid-box.grid-box--1of12
+                    %p 1/12
+              .example-markup
+                %pre
+                  :preserve
+                    .grid
+                      .grid-box.grid-box--1of1
+                        %p 1/1
+                    .grid
+                      .grid-box.grid-box--1of2
+                        %p 1/2
+                      .grid-box.grid-box--1of2
+                        %p 1/2
+                    etc...
+            .card--a.example
+              %h4 Silent Classes
+              %p If you don't want to explicitly call the <code>.grid-box--</code> modifier classes in your HTML, you can set the <code>$grid-silent</code> variable to <code>true</code> to use Sass placeholder selectors, like so:
+              .example-markup
+                %pre
+                  :preserve
+                    .main
+                      @extend %grid-box--2of3
+                    .sidebar
+                      @extend %grid-box--1of3
+            .card--a.example
+              %h4 Responsive Grid
+              %p In order to setup breakpoints for the grid, you'll need to set the <code>$grid-defaults</code> variable for your specified breakpoints. Then, either in your HTML or through <code>@extends</code> (when using <code>$grid-silent</code>), you'll do something like this:
+              .example-markup
+                %pre
+                  :preserve
+                    .grid
+                      .grid-box.grid-box--desk--2of3.grid-box--lap--1of1
+                        %h1 Main
+                      .grid-box.grid-box--desk--1of3.grid-box--lap--1of1
+                        %h2 Sidebar
+            .card--a.example
+              %h4 One-off Breakpoints
           / Hash URLs
           .contentSection#hash-urls
             %h3 Hash URLs

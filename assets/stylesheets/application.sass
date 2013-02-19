@@ -110,13 +110,14 @@
 // -- Example Label -- //
 
 .example-label
-  background: lighten($color-base, 75%)
+  background: lighten($color-base, 60%)
   font-family: $font-monospace
   font-size: em(12px)
+  margin: 0
   padding: em(10px, 12px) em(24px, 12px)
   position: absolute
-  right: 0
-  top: -10px
+  right: -5px
+  top: -5px
 
 // Example Label Modifiers //
 
@@ -151,3 +152,15 @@
     margin-bottom: em(10px, $base-font-size)
     &.active
       color: $color-highlight
+
+// ----- Grids ----- //
+
+.example-output--grids
+  margin: 0 10px
+  .grid-box
+    background: lighten($color-base, 60%)
+    height: 50px
+    margin-bottom: 10px
+    p
+      line-height: em(30px)
+      text-align: center
