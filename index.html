@@ -470,9 +470,9 @@
             </div>
             <div class='card--a example'>
               <h4>Silent Classes</h4>
-              <p>If you don't want to explicitly call the <code>.grid-box--</code> modifier classes in your HTML, you can set the <code>$grid-silent</code> variable to <code>true</code> to use Sass placeholder selectors, like so:</p>
+              <p>If you don't want to explicitly call the any of the <code>.grid</code> classes in your HTML, you can set the <code>$grid-silent</code> variable to <code>true</code> to use Sass placeholder selectors, like so:</p>
               <div class='example-markup'>
-                <pre>.main&#x000A;  @extend %grid-box--2of3&#x000A;.sidebar&#x000A;  @extend %grid-box--1of3</pre>
+                <pre>.main&#x000A;  @extend %grid&#x000A;  .content&#x000A;    @extend %grid-box&#x000A;    @extend %grid-box--2of3&#x000A;  .sidebar&#x000A;    @extend %grid-box&#x000A;    @extend %grid-box--1of3</pre>
               </div>
             </div>
             <div class='card--a example'>

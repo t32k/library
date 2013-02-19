@@ -444,14 +444,18 @@
                     etc...
             .card--a.example
               %h4 Silent Classes
-              %p If you don't want to explicitly call the <code>.grid-box--</code> modifier classes in your HTML, you can set the <code>$grid-silent</code> variable to <code>true</code> to use Sass placeholder selectors, like so:
+              %p If you don't want to explicitly call the any of the <code>.grid</code> classes in your HTML, you can set the <code>$grid-silent</code> variable to <code>true</code> to use Sass placeholder selectors, like so:
               .example-markup
                 %pre
                   :preserve
                     .main
-                      @extend %grid-box--2of3
-                    .sidebar
-                      @extend %grid-box--1of3
+                      @extend %grid
+                      .content
+                        @extend %grid-box
+                        @extend %grid-box--2of3
+                      .sidebar
+                        @extend %grid-box
+                        @extend %grid-box--1of3
             .card--a.example
               %h4 Responsive Grid
               %p In order to setup breakpoints for the grid, you'll need to set the <code>$grid-defaults</code> variable for your specified breakpoints. Then, either in your HTML or through <code>@extends</code> (when using <code>$grid-silent</code>), you'll do something like this:
