@@ -198,16 +198,16 @@
                 %form.form(methd="post" action="")
                   %fieldset.form-field
                     %label.form-label(for="name") Name: <em>*</em>
-                    %input.form-input(type="text" name="name" placeholder="Enter your name")
+                    %input.form-input(type="text" id="name" placeholder="Enter your name")
                     %p.form-note I hope you remember your name, because you need to enter it.
 
                   %fieldset.form-field
                     %label.form-label(for="email") Email: <em>*</em>
-                    %input.form-input(type="email" name="email" placeholder="Enter your email")
+                    %input.form-input(type="email" id="email" placeholder="Enter your email")
 
                   %fieldset.form-field
                     %label.form-label(for="password") Password: <em>*</em>
-                    %input.form-input(type="password" name="password")
+                    %input.form-input(type="password" id="password")
                     %p.form-note <a href="#">Forgot your password?</a>
 
                   %fieldset.form-field
@@ -223,19 +223,19 @@
                     %label.form-label(for="radio") Select your gender:
                     %ul
                       %li
-                        %label.form-label.form-label--radio(for="male") <input type="radio" name="male" /> Male
+                        %label.form-label.form-label--radio(for="male") <input type="radio" name="gender" id="male" /> Male
                       %li
-                        %label.form-label.form-label--radio(for="female") <input type="radio" name="female" /> Female
+                        %label.form-label.form-label--radio(for="female") <input type="radio" name="gender" id="female" /> Female
                       %li
-                        %label.form-label.form-label--radio(for="other") <input type="radio" name="other" /> Other
+                        %label.form-label.form-label--radio(for="other") <input type="radio" name="gender" id="other" /> Other
 
                   %fieldset.form-field
                     %label.form-label(for="notes") Extra notes:
-                    %textarea.form-input(name="notes")
+                    %textarea.form-input(id="notes")
 
                   %fieldset.form-field
                     %label.form-label(for="select") Select an option:
-                    %label.form-label.form-label--check(for="check") <input type="checkbox" name="check" /> Yes, I would like to receive tri-daily emails from your service.
+                    %label.form-label.form-label--check(for="check") <input type="checkbox" id="check" /> Yes, I would like to receive tri-daily emails from your service.
 
                   %fieldset.form-field.form-field--submit
                     %input.btn--a(type="submit" value="Submit")
@@ -245,16 +245,16 @@
                     %form.form(methd="post" action="")
                       %fieldset.form-field
                         %label.form-label(for="name") Name: <em>*</em>
-                        %input.form-input(type="text" name="name" placeholder="Enter your name")
+                        %input.form-input(type="text" id="name" placeholder="Enter your name")
                         %p.form-note I hope you remember your name, because you need to enter it.
 
                       %fieldset.form-field
                         %label.form-label(for="email") Email: <em>*</em>
-                        %input.form-input(type="email" name="email" placeholder="Enter your email")
+                        %input.form-input(type="email" id="email" placeholder="Enter your email")
 
                       %fieldset.form-field
                         %label.form-label(for="password") Password: <em>*</em>
-                        %input.form-input(type="password" name="password")
+                        %input.form-input(type="password" id="password")
                         %p.form-note
                           %a(href="#") Forgot your password?
 
@@ -272,22 +272,22 @@
                         %ul
                           %li
                             %label.form-label.form-label--radio(for="male")
-                              %input(type="radio" name="male") Male
+                              %input(type="radio" name="gender" id="male") Male
                           %li
                             %label.form-label.form-label--radio(for="female")
-                              %input(type="radio" name="female") Female
+                              %input(type="radio" name="gender" id="female") Female
                           %li
                             %label.form-label.form-label--radio(for="other")
-                              %input(type="radio" name="other") Other
+                              %input(type="radio" name="gender" id="other") Other
 
                       %fieldset.form-field
                         %label.form-label(for="notes") Extra notes:
-                        %textarea.form-input(name="notes")
+                        %textarea.form-input(id="notes")
 
                       %fieldset.form-field
                         %label.form-label(for="select") Select an option:
                         %label.form-label.form-label--check(for="check")
-                          %input(type="checkbox" name="check") Yes, I would like to receive tri-daily emails from your service.
+                          %input(type="checkbox" id="check") Yes, I would like to receive tri-daily emails from your service.
 
                       %fieldset.form-field.form-field--submit
                         %input.btn--a(type="submit" value="Submit")
