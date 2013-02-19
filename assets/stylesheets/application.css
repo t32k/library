@@ -487,7 +487,7 @@ input:-ms-input-placeholder {
   /* line 94, application.sass */
   .siteHeader .btn--a {
     font-size: 1.8em;
-    margin-top: 25px; }
+    margin-top: 1.38889em; }
 
 /* line 48, core/_settings.sass */
 .content .grid .grid-box {
@@ -510,18 +510,18 @@ input:-ms-input-placeholder {
   border-radius: 3px;
   font-family: Monaco, monospace;
   font-size: 0.8em;
-  padding: 2px 7px; }
+  padding: 0.25em 0.875em; }
 
 /* line 112, application.sass */
 .example h4 {
-  margin-bottom: 10px; }
+  margin-bottom: 0.4em; }
 
 /* line 117, application.sass */
 .example-label {
   background: #e7e7e8;
   font-family: Monaco, monospace;
   font-size: 1.2em;
-  padding: 10px 24px;
+  padding: 0.83333em 2em;
   position: absolute;
   right: 0;
   top: -10px; }
@@ -535,9 +535,9 @@ input:-ms-input-placeholder {
   background: #e7e7e8;
   font-family: Monaco, monospace;
   font-size: 1.3em;
-  margin-top: 10px;
+  margin-top: 0.76923em;
   overflow-x: scroll;
-  padding: 10px 24px; }
+  padding: 0.76923em 1.84615em; }
 
 /* line 143, application.sass */
 .example-markup--b {
@@ -546,7 +546,7 @@ input:-ms-input-placeholder {
 /* line 148, application.sass */
 .sectionList li {
   font-size: 1.6em;
-  margin-top: 15px; }
+  margin-top: 0.9375em; }
   /* line 151, application.sass */
   .sectionList li.is-developing {
     color: #a5a8aa; }
@@ -554,7 +554,7 @@ input:-ms-input-placeholder {
   .sectionList li a {
     color: #272829;
     display: block;
-    margin-bottom: 10px; }
+    margin-bottom: 0.625em; }
     /* line 157, application.sass */
     .sectionList li a.active {
       color: #bd4c28; }
