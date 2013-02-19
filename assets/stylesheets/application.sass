@@ -159,8 +159,11 @@
   margin: 0 10px
   .grid-box
     background: lighten($color-base, 60%)
+    border-right: $border-style
     height: 50px
     margin-bottom: 10px
+    &:last-child
+      border-right: 0
     p
       line-height: em(30px)
       text-align: center

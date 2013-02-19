@@ -806,9 +806,13 @@ input:-ms-input-placeholder {
   /* line 160, application.sass */
   .example-output--grids .grid-box {
     background: #bfc1c3;
+    border-right: 2px solid #a5a8aa;
     height: 50px;
     margin-bottom: 10px; }
-    /* line 164, application.sass */
+    /* line 165, application.sass */
+    .example-output--grids .grid-box:last-child {
+      border-right: 0; }
+    /* line 167, application.sass */
     .example-output--grids .grid-box p {
       line-height: 1.875em;
       text-align: center; }
