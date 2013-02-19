@@ -351,8 +351,8 @@ input:-ms-input-placeholder {
 .grid {
   display: block;
   letter-spacing: -0.31em;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -15px;
+  margin-right: -15px;
   text-rendering: optimizespeed;
   word-spacing: -0.43em; }
 
@@ -364,8 +364,8 @@ input:-ms-input-placeholder {
   display: inline-block;
   letter-spacing: normal;
   margin: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-rendering: auto;
   vertical-align: top;
   word-spacing: normal; }
@@ -787,7 +787,7 @@ input:-ms-input-placeholder {
 /* line 144, application.sass */
 .sectionList li {
   font-size: 1em;
-  margin-top: 0.9375em; }
+  margin-top: 0.625em; }
   /* line 147, application.sass */
   .sectionList li.is-developing {
     color: #a5a8aa; }
@@ -795,24 +795,29 @@ input:-ms-input-placeholder {
   .sectionList li a {
     color: #272829;
     display: block;
-    margin-bottom: 0.625em; }
-    /* line 153, application.sass */
+    margin-bottom: 0.625em;
+    padding: 0.3125em 0; }
+    /* line 154, application.sass */
     .sectionList li a.active {
-      color: #bd4c28; }
+      background: #bd4c28;
+      border-radius: 3px;
+      color: white;
+      padding-left: 1.25em;
+      margin-left: -1.25em; }
 
-/* line 158, application.sass */
+/* line 163, application.sass */
 .example-output--grids {
   margin: 0 10px; }
-  /* line 160, application.sass */
+  /* line 165, application.sass */
   .example-output--grids .grid-box {
     background: #bfc1c3;
     border-right: 2px solid #a5a8aa;
     height: 50px;
     margin-bottom: 10px; }
-    /* line 165, application.sass */
+    /* line 170, application.sass */
     .example-output--grids .grid-box:last-child {
       border-right: 0; }
-    /* line 167, application.sass */
+    /* line 172, application.sass */
     .example-output--grids .grid-box p {
       line-height: 1.875em;
       text-align: center; }

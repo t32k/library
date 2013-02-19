@@ -143,15 +143,20 @@
 
 .sectionList li
   font-size: em($base-font-size)
-  margin-top: em(15px, $base-font-size)
+  margin-top: em(10px, $base-font-size)
   &.is-developing
     color: lighten($color-base, 50%)
   a
     color: $color-base
     display: block
     margin-bottom: em(10px, $base-font-size)
+    padding: em(5px) 0
     &.active
-      color: $color-highlight
+      background: $color-highlight
+      border-radius: $border-radius
+      color: #FFF
+      padding-left: em(20px)
+      margin-left: em(-20px)
 
 // ----- Grids ----- //
 
