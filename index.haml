@@ -85,30 +85,27 @@
               %p.example-label .btn--a
               .example-output
                 %a.btn--a(href="#") Button
-              .example-markup
-                %pre
-                  :preserve
-                    %a.btn--a(href="#") Button
+              %pre.example-markup
+                :preserve
+                  %a.btn--a(href="#") Button
             / Secondary Button
             .card--a.example
               %h4 Secondary Button
               %p.example-label .btn--b
               .example-output
                 %a.btn--b(href="#") Button
-              .example-markup
-                %pre
-                  :preserve
-                    %a.btn--b(href="#") Button
+              %pre.example-markup
+                :preserve
+                  %a.btn--b(href="#") Button
             / Full-width Button
             .card--a.example
               %h4 Full-width Button
               %p.example-label .btn--a.btn--block
               .example-output
                 %a.btn--a.btn--block(href="#") Button
-              .example-markup
-                %pre
-                  :preserve
-                    %a.btn--a.btn--block(href="#") Button
+              %pre.example-markup
+                :preserve
+                  %a.btn--a.btn--block(href="#") Button
             / Multiple Buttons
             .card--a.example
               %h4 Multiple Buttons
@@ -118,43 +115,39 @@
                 %a.btn--a(href="#") Button
                 %a.btn--a(href="#") Button
                 %a.btn--a(href="#") Button
-              .example-markup
-                %pre
-                  :preserve
-                    %a.btn--a(href="#") Button
-                    %a.btn--a(href="#") Button
-                    %a.btn--a(href="#") Button
-                    %a.btn--a(href="#") Button
+              %pre.example-markup
+                :preserve
+                  %a.btn--a(href="#") Button
+                  %a.btn--a(href="#") Button
+                  %a.btn--a(href="#") Button
+                  %a.btn--a(href="#") Button
             / Large Button
             .card--a.example
               %h4 Large Button
               %p.example-label .btn--a.btn--large
               .example-output
                 %a.btn--a.btn--large(href="#") Button
-              .example-markup
-                %pre
-                  :preserve
-                    %a.btn--a.btn--large(href="#") Button
+              %pre.example-markup
+                :preserve
+                  %a.btn--a.btn--large(href="#") Button
             / Small Button
             .card--a.example
               %h4 Small Button
               %p.example-label .btn--a.btn--small
               .example-output
                 %a.btn--a.btn--small(href="#") Button
-              .example-markup
-                %pre
-                  :preserve
-                    %a.btn--a.btn--small(href="#") Button
+              %pre.example-markup
+                :preserve
+                  %a.btn--a.btn--small(href="#") Button
             / Mini Button
             .card--a.example
               %h4 Mini Button
               %p.example-label .btn--a.btn--mini
               .example-output
                 %a.btn--a.btn--mini(href="#") Button
-              .example-markup
-                %pre
-                  :preserve
-                    %a.btn--a.btn--mini(href="#") Button
+              %pre.example-markup
+                :preserve
+                  %a.btn--a.btn--mini(href="#") Button
           / Containers
           .contentSection#containers
             %h3 Containers
@@ -163,41 +156,37 @@
               %h4 Rows
               %p.example-label .row
               %p Rows are full-width blocks of content. Often times, we'll create modifiers (<code>.row--a</code>) that have different background colors.
-              .example-markup
-                %pre
-                  :preserve
-                    .row
-                      %h1 This is full-width content.
+              %pre.example-markup
+                :preserve
+                  .row
+                    %h1 This is full-width content.
             .card--a.example
               %h4 Cells
               %p.example-label .cell
               %p Cells are the inner wrappers for you site content. The modifiers (<code>.cell--a</code>) will setup alternate widths for your site content.
-              .example-markup
-                %pre
-                  :preserve
-                    .cell
-                      %h1 This is content within a inner wrapper.
+              %pre.example-markup
+                :preserve
+                  .cell
+                    %h1 This is content within a inner wrapper.
             .card--a.example
               %h4 Cards
               %p.example-label .card
               %p Cards are stylistic wrappers for content elements.
-              .example-markup
-                %pre
-                  :preserve
-                    .card
-                      %h1 This is a stylistic card.
+              %pre.example-markup
+                :preserve
+                  .card
+                    %h1 This is a stylistic card.
             .card--a.example
               %h4 Buckets
               %p.example-label .bucket--01
               %p Buckets are content elements with a media element floated to the left, and content floated next to that media element. There are modifiers for the buckets based on the <code>$bucket-sizes</code> variable, which allows you to pass in the common media element sizes. For instance, <code>.bucket--01</code> accounts for a 75px-wide media element.
-              .example-markup
-                %pre
-                  :preserve
-                    .bucket--01
-                      %img.bucket-media(src="http://placehold.it/75x75" alt="placeholder")
-                      .bucket-content
-                        %h1 Bucket
-                        %p This is a bucket.
+              %pre.example-markup
+                :preserve
+                  .bucket--01
+                    %img.bucket-media(src="http://placehold.it/75x75" alt="placeholder")
+                    .bucket-content
+                      %h1 Bucket
+                      %p This is a bucket.
           / Content
           .contentSection#content
             %h3 Content
@@ -256,58 +245,57 @@
 
                   %fieldset.form-field.form-field--submit
                     %input.btn--a(type="submit" value="Submit")
-              .example-markup
-                %pre
-                  :preserve
-                    %form.form(methd="post" action="")
-                      %fieldset.form-field
-                        %label.form-label(for="name") Name: <em>*</em>
-                        %input.form-input(type="text" id="name" placeholder="Enter your name")
-                        %p.form-note I hope you remember your name, because you need to enter it.
+              %pre.example-markup
+                :preserve
+                  %form.form(methd="post" action="")
+                    %fieldset.form-field
+                      %label.form-label(for="name") Name: <em>*</em>
+                      %input.form-input(type="text" id="name" placeholder="Enter your name")
+                      %p.form-note I hope you remember your name, because you need to enter it.
 
-                      %fieldset.form-field
-                        %label.form-label(for="email") Email: <em>*</em>
-                        %input.form-input(type="email" id="email" placeholder="Enter your email")
+                    %fieldset.form-field
+                      %label.form-label(for="email") Email: <em>*</em>
+                      %input.form-input(type="email" id="email" placeholder="Enter your email")
 
-                      %fieldset.form-field
-                        %label.form-label(for="password") Password: <em>*</em>
-                        %input.form-input(type="password" id="password")
-                        %p.form-note
-                          %a(href="#") Forgot your password?
+                    %fieldset.form-field
+                      %label.form-label(for="password") Password: <em>*</em>
+                      %input.form-input(type="password" id="password")
+                      %p.form-note
+                        %a(href="#") Forgot your password?
 
-                      %fieldset.form-field
-                        %label.form-label(for="select") Select your lunch today:
-                        %select.form-select
-                          %option(value="empty") Choose one:
-                          %option(value="item") Hamburger and fries
-                          %option(value="item") Salad
-                          %option(value="item") Enchilada
-                          %option(value="item") Salmon
+                    %fieldset.form-field
+                      %label.form-label(for="select") Select your lunch today:
+                      %select.form-select
+                        %option(value="empty") Choose one:
+                        %option(value="item") Hamburger and fries
+                        %option(value="item") Salad
+                        %option(value="item") Enchilada
+                        %option(value="item") Salmon
 
-                      %fieldset.form-field
-                        %label.form-label(for="radio") Select your gender:
-                        %ul
-                          %li
-                            %label.form-label.form-label--radio(for="male")
-                              %input(type="radio" name="gender" id="male") Male
-                          %li
-                            %label.form-label.form-label--radio(for="female")
-                              %input(type="radio" name="gender" id="female") Female
-                          %li
-                            %label.form-label.form-label--radio(for="other")
-                              %input(type="radio" name="gender" id="other") Other
+                    %fieldset.form-field
+                      %label.form-label(for="radio") Select your gender:
+                      %ul
+                        %li
+                          %label.form-label.form-label--radio(for="male")
+                            %input(type="radio" name="gender" id="male") Male
+                        %li
+                          %label.form-label.form-label--radio(for="female")
+                            %input(type="radio" name="gender" id="female") Female
+                        %li
+                          %label.form-label.form-label--radio(for="other")
+                            %input(type="radio" name="gender" id="other") Other
 
-                      %fieldset.form-field
-                        %label.form-label(for="notes") Extra notes:
-                        %textarea.form-input(id="notes")
+                    %fieldset.form-field
+                      %label.form-label(for="notes") Extra notes:
+                      %textarea.form-input(id="notes")
 
-                      %fieldset.form-field
-                        %label.form-label(for="select") Select an option:
-                        %label.form-label.form-label--check(for="check")
-                          %input(type="checkbox" id="check") Yes, I would like to receive tri-daily emails from your service.
+                    %fieldset.form-field
+                      %label.form-label(for="select") Select an option:
+                      %label.form-label.form-label--check(for="check")
+                        %input(type="checkbox" id="check") Yes, I would like to receive tri-daily emails from your service.
 
-                      %fieldset.form-field.form-field--submit
-                        %input.btn--a(type="submit" value="Submit")
+                    %fieldset.form-field.form-field--submit
+                      %input.btn--a(type="submit" value="Submit")
 
             .card--a.example
               %h4 Inline Form
@@ -319,15 +307,14 @@
                       %input.form-input(type="text" placeholder="Enter your search team")
                     .grid-box.grid-box--1of3
                       %input.btn--a.btn--block.form-submit(type="submit" value="Search")
-              .example-markup
-                %pre
-                  :preserve
-                    %form.form(methd="post" action="")
-                      %fieldset.form-field.grid
-                        .grid-box.grid-box--2of3
-                          %input.form-input(type="text" placeholder="Enter your search team")
-                        .grid-box.grid-box--1of3
-                          %input.btn--a.btn--block.form-submit(type="submit" value="Search")
+              %pre.example-markup
+                :preserve
+                  %form.form(methd="post" action="")
+                    %fieldset.form-field.grid
+                      .grid-box.grid-box--2of3
+                        %input.form-input(type="text" placeholder="Enter your search team")
+                      .grid-box.grid-box--1of3
+                        %input.btn--a.btn--block.form-submit(type="submit" value="Search")
           / Grids
           .contentSection#grids
             %h3 Grids
@@ -447,44 +434,41 @@
                     %p 1/12
                   .grid-box.grid-box--1of12
                     %p 1/12
-              .example-markup
-                %pre
-                  :preserve
-                    .grid
-                      .grid-box.grid-box--1of1
-                        %p 1/1
-                    .grid
-                      .grid-box.grid-box--1of2
-                        %p 1/2
-                      .grid-box.grid-box--1of2
-                        %p 1/2
-                    etc...
+              %pre.example-markup
+                :preserve
+                  .grid
+                    .grid-box.grid-box--1of1
+                      %p 1/1
+                  .grid
+                    .grid-box.grid-box--1of2
+                      %p 1/2
+                    .grid-box.grid-box--1of2
+                      %p 1/2
+                  etc...
             .card--a.example
               %h4 Silent Classes
               %p If you don't want to explicitly call any of the <code>.grid</code> classes in your HTML, you can set the <code>$grid-silent</code> variable to <code>true</code> to use Sass placeholder selectors, like so:
-              .example-markup
-                %pre
-                  :preserve
-                    .main
-                      @extend %grid
-                      .content,
-                      .sidebar
-                        @extend %grid-box
-                      .content
-                        @extend %grid-box--2of3
-                      .sidebar
-                        @extend %grid-box--1of3
+              %pre.example-markup
+                :preserve
+                  .main
+                    @extend %grid
+                    .content,
+                    .sidebar
+                      @extend %grid-box
+                    .content
+                      @extend %grid-box--2of3
+                    .sidebar
+                      @extend %grid-box--1of3
             .card--a.example
               %h4 Responsive Grid
               %p In order to setup breakpoints for the grid, you'll need to set the <code>$grid-defaults</code> variable for your specified breakpoints. Then, either in your HTML or through <code>@extends</code> (when using <code>$grid-silent</code>), you'll do something like this:
-              .example-markup
-                %pre
-                  :preserve
-                    .grid
-                      .grid-box.grid-box--desk--2of3.grid-box--lap--1of1
-                        %h1 Main
-                      .grid-box.grid-box--desk--1of3.grid-box--lap--1of1
-                        %h2 Sidebar
+              %pre.example-markup
+                :preserve
+                  .grid
+                    .grid-box.grid-box--desk--2of3.grid-box--lap--1of1
+                      %h1 Main
+                    .grid-box.grid-box--desk--1of3.grid-box--lap--1of1
+                      %h2 Sidebar
             .card--a.example
               %h4 One-off Breakpoints
           / Hash URLs
@@ -494,29 +478,27 @@
             .card--a.example
               %h4 Markup
               %p.example-label Haml
-              .example-markup
-                %pre
-                  :preserve
-                    %ul.sectionList
-                      %li
-                        %a(href="#example-01" data-hash="#example-01") Example 1
-                      %li
-                        %a(href="#example-02" data-hash="#example-02") Example 2
+              %pre.example-markup
+                :preserve
+                  %ul.sectionList
+                    %li
+                      %a(href="#example-01" data-hash="#example-01") Example 1
+                    %li
+                      %a(href="#example-02" data-hash="#example-02") Example 2
 
-                    .contentSection#example-01
-                      %h2 Example 01
-                    .contentSection#example-02
-                      %h2 Example 02
+                  .contentSection#example-01
+                    %h2 Example 01
+                  .contentSection#example-02
+                    %h2 Example 02
             .card--a.example
               %h4 JavaScript
               %p.example-label JavaScript
-              .example-markup
-                %pre
-                  :preserve
-                    $.hashURLs({
-                      list: $('.sectionList a'),
-                      content: $('.contentSection')
-                    });
+              %pre.example-markup
+                :preserve
+                  $.hashURLs({
+                    list: $('.sectionList a'),
+                    content: $('.contentSection')
+                  });
           / Icons
           .contentSection#icons
             %h3 Icons
@@ -602,26 +584,25 @@
                       %td.table-controls
                         %a.btn.btn--a(href="#") Edit
                         %a.btn.btn--a(href="#") Delete
-                .example-markup
-                  %pre
-                    :preserve
-                      %table.table
-                        %thead.table-head
-                          %tr.table-row
-                            %th #
-                            %th First Name
-                            %th Last Name
-                            %th Email
-                            %th Controls
-                        %tbody.table-body
-                          %tr.table-row
-                            %td 1
-                            %td Drew
-                            %td Barontini
-                            %td drew@envylabs.com
-                            %td.table-controls
-                              %a.btn.btn--a(href="#") Edit
-                              %a.btn.btn--a(href="#") Delete
+                %pre.example-markup
+                  :preserve
+                    %table.table
+                      %thead.table-head
+                        %tr.table-row
+                          %th #
+                          %th First Name
+                          %th Last Name
+                          %th Email
+                          %th Controls
+                      %tbody.table-body
+                        %tr.table-row
+                          %td 1
+                          %td Drew
+                          %td Barontini
+                          %td drew@envylabs.com
+                          %td.table-controls
+                            %a.btn.btn--a(href="#") Edit
+                            %a.btn.btn--a(href="#") Delete
             .card--a.example
               %h4 Striped Table
               %p.example-label .table.table--striped
@@ -691,26 +672,25 @@
                       %td.table-controls
                         %a.btn.btn--a(href="#") Edit
                         %a.btn.btn--a(href="#") Delete
-                .example-markup
-                  %pre
-                    :preserve
-                      %table.table.table--striped
-                        %thead.table-head
-                          %tr.table-row
-                            %th #
-                            %th First Name
-                            %th Last Name
-                            %th Email
-                            %th Controls
-                        %tbody.table-body
-                          %tr.table-row
-                            %td 1
-                            %td Drew
-                            %td Barontini
-                            %td drew@envylabs.com
-                            %td.table-controls
-                              %a.btn.btn--a(href="#") Edit
-                              %a.btn.btn--a(href="#") Delete
+                %pre.example-markup
+                  :preserve
+                    %table.table.table--striped
+                      %thead.table-head
+                        %tr.table-row
+                          %th #
+                          %th First Name
+                          %th Last Name
+                          %th Email
+                          %th Controls
+                      %tbody.table-body
+                        %tr.table-row
+                          %td 1
+                          %td Drew
+                          %td Barontini
+                          %td drew@envylabs.com
+                          %td.table-controls
+                            %a.btn.btn--a(href="#") Edit
+                            %a.btn.btn--a(href="#") Delete
           / Tabs
           .contentSection#tabs
             %h3 Tabs
@@ -735,30 +715,29 @@
                 .card--a.tabs-content#four
                   %h2 Item Four
                   %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              .example-markup.example-markup--b
-                %pre
-                  :preserve
-                    %ul.tabs
-                      %li.tab
-                        %a.is-active(href="#one") Item One
-                      %li.tab
-                        %a(href="#two") Item Two
-                      %li.tab
-                        %a(href="#three") Item Three
-                      %li.tab
-                        %a(href="#four") Item Four
-                    .card--a.tabs-content.is-visible#one
-                      %h2 Item One
-                      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    .card--a.tabs-content#two
-                      %h2 Item Two
-                      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    .card--a.tabs-content#three
-                      %h2 Item Three
-                      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    .card--a.tabs-content#four
-                      %h2 Item Four
-                      %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              %pre.example-markup.example-markup--b
+                :preserve
+                  %ul.tabs
+                    %li.tab
+                      %a.is-active(href="#one") Item One
+                    %li.tab
+                      %a(href="#two") Item Two
+                    %li.tab
+                      %a(href="#three") Item Three
+                    %li.tab
+                      %a(href="#four") Item Four
+                  .card--a.tabs-content.is-visible#one
+                    %h2 Item One
+                    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  .card--a.tabs-content#two
+                    %h2 Item Two
+                    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  .card--a.tabs-content#three
+                    %h2 Item Three
+                    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  .card--a.tabs-content#four
+                    %h2 Item Four
+                    %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
           / Tooltips
           .contentSection#tooltips
