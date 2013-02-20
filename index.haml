@@ -47,7 +47,7 @@
           / About
           .contentSection#about
             %h3 About
-            %p Welcome to the <strong>currently in-development</strong> MVCSS Library. This codebase is a modular framework for markup patterns (<code>modules/</code>) and JavaScript components (<code>components/</code>) that are built on top of <a href="http://mvcss.github.com/MVCSS/">MVCSS</a>.  
+            %p Welcome to the <strong>currently in-development</strong> MVCSS Library. This codebase is a modular framework for markup patterns (<code>modules/</code>) and JavaScript components (<code>components/</code>) that are built on top of <a href="http://mvcss.github.com/MVCSS/">MVCSS</a>.
             .card--a
               %h4 Prerequisites
               %p Before setting up the framework, we suggest you ready through <a href="http://mvcss.github.com/MVCSS/">MVCSS</a>, as well as the <a href="http://mvcss.github.com/styleguide/">styleguide</a> for how we write our markup and styles.
@@ -467,11 +467,12 @@
                   :preserve
                     .main
                       @extend %grid
-                      .content
-                        @extend %grid-box
-                        @extend %grid-box--2of3
+                      .content,
                       .sidebar
                         @extend %grid-box
+                      .content
+                        @extend %grid-box--2of3
+                      .sidebar
                         @extend %grid-box--1of3
             .card--a.example
               %h4 Responsive Grid
