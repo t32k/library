@@ -784,7 +784,7 @@ input:-ms-input-placeholder {
   background: #e7e7e8;
   font-family: Monaco, monospace;
   font-size: 0.8125em;
-  margin-top: 0.76923em;
+  margin: 0.76923em 0;
   overflow-x: scroll;
   padding: 0.76923em 1.84615em; }
 
