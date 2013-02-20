@@ -348,8 +348,8 @@ input:-ms-input-placeholder {
 .grid {
   display: block;
   letter-spacing: -0.31em;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin-left: -15px;
+  margin-right: -15px;
   text-rendering: optimizespeed;
   word-spacing: -0.43em; }
 
@@ -360,8 +360,8 @@ input:-ms-input-placeholder {
   display: inline-block;
   letter-spacing: normal;
   margin: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   text-rendering: auto;
   vertical-align: top;
   word-spacing: normal; }
