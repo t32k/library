@@ -806,7 +806,7 @@ input:-ms-input-placeholder {
     margin-bottom: 0.625em;
     padding: 0.3125em 0; }
     /* line 90, _docs.sass */
-    .sectionList li a.active {
+    .sectionList li a.is-active {
       background: #bd4c28;
       border-radius: 3px;
       color: white;
