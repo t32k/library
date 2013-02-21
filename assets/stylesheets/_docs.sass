@@ -7,12 +7,13 @@
 .siteHeader
   background: $color-base
   box-shadow: none
-  h1, h2
+  h1
     color: #FFF
-  h2
+  p
     font-size: em(24px)
-    color: lighten($color-base, 40%)
     font-weight: normal
+    color: lighten($color-base, 40%)
+    margin: 0
   .btn--a
     font-size: em(18px)
     margin-top: em(22px, 18px)
@@ -20,8 +21,8 @@
 // ----- Content ----- //
 
 .contentSection
-  h3, h4
-    margin-bottom: 0 0 em(5px)
+  h2
+    margin-bottom: em(5px)
   code
     background: lighten($color-base, 70%)
     border-radius: $border-radius
