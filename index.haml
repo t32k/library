@@ -38,7 +38,7 @@
             %li <a href="#hash-urls" data-hash="#hash-urls">Hash URLs</a>
             %li.is-developing Icons
             %li.is-developing Lightbox
-            %li.is-developing Lists
+            %li <a href="#lists" data-hash="#lists">Lists</a>
             %li.is-developing Modals
             %li.is-developing Popovers
             %li <a href="#tables" data-hash="#tables">Tables</a>
@@ -499,6 +499,75 @@
           / Lists
           .contentSection#lists
             %h2 Lists
+            %p Requires <code>modules/_lists.sass</code>
+            .card--a.example
+              %h3 Generic List
+              %p.example-label .list
+              .example-output
+                %ul.list
+                  %li This is an item
+                  %li This is an item
+                  %li This is an item
+                  %li This is an item
+              %pre.example-markup
+                :preserve
+                  %ul.list
+                    %li This is an item
+                    %li This is an item
+                    %li This is an item
+                    %li This is an item
+            .card--a.example
+              %h3 Bulleted List
+              %p.example-label .list.list--bulleted
+              .example-output
+                %ul.list.list--bulleted
+                  %li This is an item
+                  %li This is an item
+                  %li This is an item
+                  %li This is an item
+              %pre.example-markup
+                :preserve
+                  %ul.list.list--bulleted
+                    %li This is an item
+                    %li This is an item
+                    %li This is an item
+                    %li This is an item
+            .card--a.example
+              %h3 Numbered List
+              %p.example-label .list.list--numbered
+              .example-output
+                %ul.list.list--numbered
+                  %li This is an item
+                  %li This is an item
+                  %li This is an item
+                  %li This is an item
+              %pre.example-markup
+                :preserve
+                  %ul.list.list--numbered
+                    %li This is an item
+                    %li This is an item
+                    %li This is an item
+                    %li This is an item
+            .card--a.example
+              %h3 Nav List
+              %p.example-label .list.list--nav
+              .example-output
+                %ul.list.list--nav
+                  %li.is-active <a class="active" href="#">Item</a>
+                  %li <a href="#">Item</a>
+                  %li <a href="#">Item</a>
+                  %li <a href="#">Item</a>
+              %pre.example-markup
+                :preserve
+                  %ul.list.list--nav
+                    %li.is-active
+                      %a(href="#") Item
+                    %li
+                      %a(href="#") Item
+                    %li
+                      %a(href="#") Item
+                    %li
+                      %a(href="#") Item
           / Modals
           .contentSection#modals
             %h2 Modals

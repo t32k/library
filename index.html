@@ -43,7 +43,7 @@
             <li><a href="#hash-urls" data-hash="#hash-urls">Hash URLs</a></li>
             <li class='is-developing'>Icons</li>
             <li class='is-developing'>Lightbox</li>
-            <li class='is-developing'>Lists</li>
+            <li><a href="#lists" data-hash="#lists">Lists</a></li>
             <li class='is-developing'>Modals</li>
             <li class='is-developing'>Popovers</li>
             <li><a href="#tables" data-hash="#tables">Tables</a></li>
@@ -499,6 +499,59 @@
           <!-- Lists -->
           <div class='contentSection' id='lists'>
             <h2>Lists</h2>
+            <p>Requires <code>modules/_lists.sass</code></p>
+            <div class='card--a example'>
+              <h3>Generic List</h3>
+              <p class='example-label'>.list</p>
+              <div class='example-output'>
+                <ul class='list'>
+                  <li>This is an item</li>
+                  <li>This is an item</li>
+                  <li>This is an item</li>
+                  <li>This is an item</li>
+                </ul>
+              </div>
+              <pre class='example-markup'>%ul.list&#x000A;  %li This is an item&#x000A;  %li This is an item&#x000A;  %li This is an item&#x000A;  %li This is an item</pre>
+            </div>
+            <div class='card--a example'>
+              <h3>Bulleted List</h3>
+              <p class='example-label'>.list.list--bulleted</p>
+              <div class='example-output'>
+                <ul class='list list--bulleted'>
+                  <li>This is an item</li>
+                  <li>This is an item</li>
+                  <li>This is an item</li>
+                  <li>This is an item</li>
+                </ul>
+              </div>
+              <pre class='example-markup'>%ul.list.list--bulleted&#x000A;  %li This is an item&#x000A;  %li This is an item&#x000A;  %li This is an item&#x000A;  %li This is an item</pre>
+            </div>
+            <div class='card--a example'>
+              <h3>Numbered List</h3>
+              <p class='example-label'>.list.list--numbered</p>
+              <div class='example-output'>
+                <ul class='list list--numbered'>
+                  <li>This is an item</li>
+                  <li>This is an item</li>
+                  <li>This is an item</li>
+                  <li>This is an item</li>
+                </ul>
+              </div>
+              <pre class='example-markup'>%ul.list.list--numbered&#x000A;  %li This is an item&#x000A;  %li This is an item&#x000A;  %li This is an item&#x000A;  %li This is an item</pre>
+            </div>
+            <div class='card--a example'>
+              <h3>Nav List</h3>
+              <p class='example-label'>.list.list--nav</p>
+              <div class='example-output'>
+                <ul class='list list--nav'>
+                  <li class='is-active'><a class="active" href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+              <pre class='example-markup'>%ul.list.list--nav&#x000A;  %li.is-active&#x000A;    %a(href="#") Item&#x000A;  %li&#x000A;    %a(href="#") Item&#x000A;  %li&#x000A;    %a(href="#") Item&#x000A;  %li&#x000A;    %a(href="#") Item</pre>
+            </div>
           </div>
           <!-- Modals -->
           <div class='contentSection' id='modals'>
