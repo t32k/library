@@ -1,0 +1,37 @@
+!!! 5
+<!--[if IE 7]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+%head
+  %meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+  %meta(charset="utf-8")
+  %title MVCSS - Library
+  %link(href="../assets/stylesheets/application.css" rel="stylesheet")
+%body
+  / Header
+  %header.row--a.siteHeader
+    .cell
+      .grid
+        .grid-box.grid-box--3of5
+          %h1 MVCSS Library
+          %p Change Log
+        .grid-box.grid-box--2of5.grid-box--middle
+          %a.btn--a.btn--block(href="https://github.com/mvcss/library") Take me to the code &rarr;
+
+  / Content
+  %section.row.content
+    .cell
+      .update
+        %h2 v0.7.1
+        %h5 March 1, 2013
+        %ul.list.list--bulleted
+          %li Adjust the grids module to account for a bug in WebKit (<a href="https://github.com/mvcss/library/commit/3bc29352fe039f4d93eba887218e1713529238a4">commit</a>)
+      .update
+        %h2 v0.7.0
+        %h5 February 22, 2013
+        %ul.list.list--bulleted
+          %li Initial version applied
+
+</html>
