@@ -246,36 +246,6 @@ code {
 .card--b {
   background: #cdcecf; }
 
-/* line 9, modules/_content.sass */
-.compose h1 {
-  line-height: 1.8em; }
-/* line 12, modules/_content.sass */
-.compose h2 {
-  line-height: 2.05714em; }
-/* line 15, modules/_content.sass */
-.compose h3 {
-  line-height: 2.4em; }
-/* line 20, modules/_content.sass */
-.compose p {
-  margin-bottom: 1.5em; }
-/* line 25, modules/_content.sass */
-.compose blockquote {
-  border-left: 5px solid #a5a8aa;
-  color: #8b8e91;
-  font-size: 2em;
-  line-height: 2.4em;
-  padding-left: 20px; }
-/* line 34, modules/_content.sass */
-.compose pre {
-  background: white;
-  font-family: Monaco, monospace;
-  font-size: 1.4em;
-  line-height: 1.71429em;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px; }
-
 /* line 14, modules/_forms.sass */
 .form {
   margin: 1.25em 0; }
