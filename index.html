@@ -45,6 +45,7 @@
             <li><a href="#lists" data-hash="#lists">Lists</a></li>
             <li><a href="#modals" data-hash="#modals">Modals</a></li>
             <li><a href="#popovers" data-hash="#popovers">Popovers</a></li>
+            <li><a href="#states" data-hash="#states">States</a></li>
             <li><a href="#tables" data-hash="#tables">Tables</a></li>
             <li><a href="#tabs" data-hash="#tabs">Tabs</a></li>
             <li><a href="#tooltips" data-hash="#tooltips">Tooltips</a></li>
@@ -580,6 +581,12 @@
               <p>We like the setup Bootstrap uses for its popovers. Be sure to grab the <code>bootstrap-popover.js</code> and <code>popovers.less</code>. There is an empty <code>modules/_popovers.sass</code> file in the library for you to fill in your styles.</p>
             </div>
           </div>
+          <!-- States -->
+          <div class='contentSection' id='states'>
+            <h2>States</h2>
+            <p>Requires <code>modules/_states.sass</code></p>
+            <p>If your application uses enough global states (<code>.is-state</code>), you can add them in the <strong>States</strong> module.</p>
+          </div>
           <!-- Tables -->
           <div class='contentSection' id='tables'>
             <h2>Tables</h2>
@@ -823,14 +830,12 @@
   <script src='assets/javascripts/components/hash-urls.js' type='text/javascript'></script>
   <script src='assets/javascripts/application.js' type='text/javascript'></script>
   <script>
-    //<![CDATA[
-      $(function() {
-        $.hashURLs({
-          list: $('.sectionList a'),
-          content: $('.contentSection')
-        });
+    $(function() {
+      $.hashURLs({
+        list: $('.sectionList a'),
+        content: $('.contentSection')
       });
-    //]]>
+    });
   </script>
 </body>
 </html>
