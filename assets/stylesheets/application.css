@@ -768,6 +768,10 @@ input:-ms-input-placeholder {
   .tabs-content.is-visible {
     display: block; }
 
+/* line 7, modules/_typography.sass */
+.t-center {
+  text-align: center; }
+
 /* line 7, _docs.sass */
 .siteHeader {
   background: #272829;
