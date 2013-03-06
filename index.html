@@ -36,7 +36,6 @@
             <li class='is-developing'>Settings</li>
             <li><a href="#buttons" data-hash="#buttons">Buttons</a></li>
             <li><a href="#containers" data-hash="#containers">Containers</a></li>
-            <li class='is-developing'>Content</li>
             <li class='is-developing'>Dropdowns</li>
             <li><a href="#forms" data-hash="#forms">Forms</a></li>
             <li class='is-developing'>Grids</li>
@@ -49,6 +48,7 @@
             <li><a href="#tables" data-hash="#tables">Tables</a></li>
             <li><a href="#tabs" data-hash="#tabs">Tabs</a></li>
             <li><a href="#tooltips" data-hash="#tooltips">Tooltips</a></li>
+            <li class='is-developing'>Typography</li>
             <li class='is-developing'>Video Modal</li>
           </ul>
         </aside>
@@ -188,10 +188,6 @@
               <p>Cards are stylistic wrappers for content elements.</p>
               <pre class='example-markup'>.card&#x000A;  %h1 This is a stylistic card.</pre>
             </div>
-          </div>
-          <!-- Content -->
-          <div class='contentSection' id='content'>
-            <h2>Content</h2>
           </div>
           <!-- Dropdowns -->
           <div class='contentSection' id='dropdowns'>
@@ -552,6 +548,19 @@
               </div>
               <pre class='example-markup'>%ul.list.list--nav&#x000A;  %li.is-active&#x000A;    %a(href="#") Item&#x000A;  %li&#x000A;    %a(href="#") Item&#x000A;  %li&#x000A;    %a(href="#") Item&#x000A;  %li&#x000A;    %a(href="#") Item</pre>
             </div>
+            <div class='card--a example'>
+              <h3>Block List</h3>
+              <p class='example-label'>.list.list--block</p>
+              <div class='example-output'>
+                <ul class='list list--block'>
+                  <li><a class="active" href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                  <li><a href="#">Item</a></li>
+                </ul>
+              </div>
+              <pre class='example-markup'>%ul.list.list--block&#x000A;  %li&#x000A;    %a(href="#") Item&#x000A;  %li&#x000A;    %a(href="#") Item&#x000A;  %li&#x000A;    %a(href="#") Item&#x000A;  %li&#x000A;    %a(href="#") Item</pre>
+            </div>
           </div>
           <!-- Modals -->
           <div class='contentSection' id='modals'>
@@ -797,6 +806,10 @@
               <h3>Twitter Bootstrap Tooltips</h3>
               <p>We like the setup Bootstrap uses for its tooltips. Be sure to grab <code>bootstrap-tooltip.js</code> and <code>tooltip.less</code>. There is an empty <code>modules/_tooltips.sass</code> file in the library for you to fill in your styles.</p>
             </div>
+          </div>
+          <!-- Typography -->
+          <div class='contentSection' id='typography'>
+            <h2>Typography</h2>
           </div>
           <!-- Video Modal -->
           <div class='contentSection' id='video-modal'>

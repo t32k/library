@@ -31,7 +31,6 @@
             %li.is-developing Settings
             %li <a href="#buttons" data-hash="#buttons">Buttons</a>
             %li <a href="#containers" data-hash="#containers">Containers</a>
-            %li.is-developing Content
             %li.is-developing Dropdowns
             %li <a href="#forms" data-hash="#forms">Forms</a>
             %li.is-developing Grids
@@ -44,6 +43,7 @@
             %li <a href="#tables" data-hash="#tables">Tables</a>
             %li <a href="#tabs" data-hash="#tabs">Tabs</a>
             %li <a href="#tooltips" data-hash="#tooltips">Tooltips</a>
+            %li.is-developing Typography
             %li.is-developing Video Modal
         .grid-box.grid-box--4of5
           / About
@@ -178,9 +178,6 @@
                 :preserve
                   .card
                     %h1 This is a stylistic card.
-          / Content
-          .contentSection#content
-            %h2 Content
           / Dropdowns
           .contentSection#dropdowns
             %h2 Dropdowns
@@ -568,6 +565,26 @@
                       %a(href="#") Item
                     %li
                       %a(href="#") Item
+            .card--a.example
+              %h3 Block List
+              %p.example-label .list.list--block
+              .example-output
+                %ul.list.list--block
+                  %li <a class="active" href="#">Item</a>
+                  %li <a href="#">Item</a>
+                  %li <a href="#">Item</a>
+                  %li <a href="#">Item</a>
+              %pre.example-markup
+                :preserve
+                  %ul.list.list--block
+                    %li
+                      %a(href="#") Item
+                    %li
+                      %a(href="#") Item
+                    %li
+                      %a(href="#") Item
+                    %li
+                      %a(href="#") Item
           / Modals
           .contentSection#modals
             %h2 Modals
@@ -816,6 +833,9 @@
             .card--a
               %h3 Twitter Bootstrap Tooltips
               %p We like the setup Bootstrap uses for its tooltips. Be sure to grab <code>bootstrap-tooltip.js</code> and <code>tooltip.less</code>. There is an empty <code>modules/_tooltips.sass</code> file in the library for you to fill in your styles.
+          / Typography
+          .contentSection#typography
+            %h2 Typography
           / Video Modal
           .contentSection#video-modal
             %h2 Video Modal
